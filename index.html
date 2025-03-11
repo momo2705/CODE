@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain{
+            background: url(images/bg_header.jpg);
+            background-size: cover;
+        }
+        .contain .a{
+            width: 80%;
+            height: 100px;
+            color: #ffff;
+            display: flex;
+            background: red;
+            margin: 0 auto;
+            
+            
+            
+
+        }
+        .contain .logo{
+            width: 50%;
+           
+        
+        }
+        .contain .a .logo img{
+            width: 200px;
+        }
+        .contain .menu{
+            width: 50%;
+           
+        }
+        .contain .b{
+            width: 100%;
+            color: #ffff;
+            text-align: center;
+            line-height:100px;
+        }
+        span{
+            color: red;
+        }
+       .contain .a .menu ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style:none ;
+       }
+       .contain .a .menu ul li a{
+        color: #ffff;
+        text-decoration: none;
+        margin-left: 10px;
+       }
+       .contain .a .menu ul li a:hover{
+        color: blue;
+       }
+
+       
+
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="a">
+            <div class="logo">
+            <img src="images/logo.png" alt="">
+            </div>
+            <div class="menu">
+               <ul>
+                <li><a href="#">Aaaa</a></li>
+                <li><a href="#">Bbb</a></li>
+                <li><a href="#">Ccc</a></li>
+                <li><a href="#">Ddd</a></li>
+               </ul>
+            </div>
+
+        </div>
+        <div class="b">
+            <h1>POWER OF <span>HTML CSS.</span> </h1>
+            <h2>Language can create a lot of beauty on the website</h2>
+            <button style="background: red;"> Learn on</button>
+        </div>
+    </div>
+</body>
+</html>
